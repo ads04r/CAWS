@@ -1,0 +1,78 @@
+html, body
+{
+    font-family: Helvetica, sans-serif;
+}
+
+.page
+{
+    
+}
+
+.card
+{
+    width: 4cm;
+    height: 6.5cm;
+    border: 1px solid #ccc;
+    border-radius: 0.6cm;
+    padding: 0.5cm;
+    margin: 0 0.3cm 0.3cm 0;
+    
+    page-break-inside: avoid;
+    
+    position: relative;
+    
+    float: left;
+    
+     -webkit-print-color-adjust: exact;
+}
+
+.black
+{
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.white
+{
+    background: #fff;
+    color: #000;
+    border-color: #ccc;
+}
+
+
+.text
+{
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: left;
+}
+
+
+.draw, .pick
+{
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    position: absolute;
+    right: 0.6cm;
+    bottom: 0.6cm;
+    font-size: 12pt;
+}
+
+.draw
+{
+    bottom: 1.5cm;
+}
+
+.num
+{
+    display: inline-block;
+    width: 4mm;
+    height: 4mm;
+    padding: 1mm;
+    text-align: center;
+    border-radius: 5mm;
+    background: #fff;
+    color: #000;
+}
